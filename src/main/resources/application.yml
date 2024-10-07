@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:9000/midb
+    username: admin
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update                                # Controla la creación y actualización de tablas (opciones: none, validate, update, create, create-drop)
+    show-sql: true                                    # Muestra las sentencias SQL en la consola
+    database-platform: org.hibernate.dialect.PostgreSQLDialect  # Dialecto específico de PostgreSQL
