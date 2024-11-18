@@ -11,4 +11,5 @@ public interface UserRepository {
     List<UserModel> findAll();
 
     UserModel saveUser(UserModel user);
+
 }

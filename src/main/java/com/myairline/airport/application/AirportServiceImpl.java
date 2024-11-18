@@ -20,4 +20,9 @@ public class AirportServiceImpl implements AirportService {
     public void saveInfoByUser(UserModel userModel) {
         userRepository.saveUser(userModel);
     }
+
+    @Override
+    public void deleteInfoByUser(UserModel userModel) {
+        //delete
+    }
 }

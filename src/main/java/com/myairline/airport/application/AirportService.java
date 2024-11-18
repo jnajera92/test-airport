@@ -7,4 +7,6 @@ public interface AirportService {
     UserModel getInfoByUser(UserModel userModel);
 
     void saveInfoByUser(UserModel userModel);
+
+    void deleteInfoByUser(UserModel userModel);
 }
