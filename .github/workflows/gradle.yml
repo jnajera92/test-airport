@@ -33,7 +33,7 @@ jobs:
 
     # Compila el código con Gradle
     - name: Build with Gradle
-      run: ./gradlew build -x test -x lint
+      run: ./gradlew build
 
   # Validar conflictos de merge
   merge-check:
