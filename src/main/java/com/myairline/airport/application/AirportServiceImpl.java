@@ -24,5 +24,6 @@ public class AirportServiceImpl implements AirportService {
     @Override
     public void deleteInfoByUser(UserModel userModel) {
         //delete
+
     }
 }
