@@ -20,7 +20,5 @@ public interface UserJPARepository extends JpaRepository<UserEntity, Long> {
             @Nullable int age
     );
 
-
-
-
+    
 }
